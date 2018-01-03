@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if BRANDS.all? {|x| x != bread} == true
+    if BRANDS.all? {|x| x != brand} == true
       BRANDS << brand
     end
     end
