@@ -9,7 +9,6 @@ class Shoe
     if BRANDS.all? {|x| x != brand} == true
       BRANDS << brand
     end
-    end
   end
 
   def cobble
