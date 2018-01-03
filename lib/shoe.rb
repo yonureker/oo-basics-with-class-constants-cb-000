@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     BRANDS.all? do |x|
       if x != brand
-      BRANDS << brand
+        BRANDS << brand
       end
     end
   end
